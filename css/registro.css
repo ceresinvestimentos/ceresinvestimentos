@@ -1,0 +1,48 @@
+.cadbtn {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    height: 40px;
+    border: none;
+    letter-spacing: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+
+.cadbtn span {
+    width: 100%;
+    font-weight: bold;
+}
+
+.refemCad {
+    opacity: 0;
+    transition: .5s all ease-out;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translateY(-50%);
+}
+
+.cadbtn:hover>.refemCad {
+    opacity: 1;
+    left: 72%;
+}
+
+@media screen and (max-width: 700px) {
+    .cadbtn:hover>.refemCad {
+        opacity: 1;
+        left: 70%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cadbtn:hover>.refemCad {
+        opacity: 1;
+        left: 75%;
+    }
+}

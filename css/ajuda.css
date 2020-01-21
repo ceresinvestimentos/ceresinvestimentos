@@ -1,0 +1,145 @@
+/*----Ajuda-----*/
+
+.ajuda {
+    padding-bottom: 50px;
+    background: linear-gradient(45deg, rgba(27, 97, 150, .5), #eaf7ff, rgba(27, 97, 150, .5));
+}
+
+.ajuda-title p {
+    margin-bottom: -15px!important;
+}
+
+.underline {
+    transform-origin: center;
+    width: 20%;
+    height: 3px;
+    background-color: #0C3C60;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+.saibaMais {
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0C3C60;
+}
+
+.saibaMais p {
+    color: #0C3C60;
+    font-size: 80px
+}
+
+.col h2 {
+    color: #0C3C60;
+}
+
+.ajuda address {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.help-h2 {
+    text-align: center;
+}
+
+.ajuda input {
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.ajuda textarea {
+    width: 80%;
+    height: 160px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.button {
+    background: transparent;
+    border: 2px solid gray;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background: #39729b;
+}
+
+.button-fc button:hover {
+    background: #0C3C60;
+    font-weight: bolder;
+}
+
+.card-header {
+    text-align: Left;
+    padding: 0px 19px 10px 19px!important;
+    min-height: 70px;
+}
+
+.mb-0 a {
+    color: rgba(12, 60, 96, .8)!important;
+    text-align: justify;
+    display: block!important;
+}
+
+.mb-0 a:hover {
+    color: rgba(12, 60, 96, 1)!important;
+}
+
+.faleconoscob, .faleconoscob h2, .addresses {
+    text-align: center;
+    color: #0C3C60;
+}
+
+.faleconoscob button {
+    margin: 20px 0;
+}
+
+.addresses address:nth-child(2) {
+    margin: 50px 0;
+}
+
+#enderecos h2 {
+    padding: 0 0 0 0;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .card-header {
+        min-height: 82px;
+    }
+    .addresses address:nth-child(2) {
+        margin: 25px 0;
+    }
+    .addresses address:nth-child(3) {
+        margin: 45px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .saibaMais p {
+        font-size: 60px;
+    }
+    .help-h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .faleconoscob h2{
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    .ajuda input {
+        width: 100%;
+     }
+    .ajuda textarea {
+        width: 100%;
+    }
+}

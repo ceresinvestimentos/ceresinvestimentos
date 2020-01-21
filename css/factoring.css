@@ -1,0 +1,101 @@
+.comofunciona {
+    padding-top: 20px;
+    text-align: center;
+    color: #0C3C60;
+}
+
+.cf-title p {
+    font-size: 68px;
+    margin-bottom: 0;
+}
+
+.underline {
+    transform-origin: center;
+    width: 20%;
+    height: 3px;
+    background-color: #0C3C60;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+.col-md-12 h1 {
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.col-md-12 p {
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ol li {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0!important;
+    margin-left: -25px;
+    color: inherit;
+    text-align: justify;
+}
+
+.btn-help {
+    padding: 30px 0;
+}
+
+.btn-help p{
+    text-align: center;
+}
+
+.PrecisoDeAjuda {
+    min-height: 60px;
+    width: 220px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 3px solid rgb(12, 60, 96);
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+
+.PrecisoDeAjuda span {
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(12, 60, 96)
+}
+
+.PrecisoDeAjuda:hover {
+    text-decoration: none;
+    color: rgb(12, 60, 96)
+}
+
+.fa-angle-double-right {
+    opacity: 0;
+    transition: .2s all linear;
+}
+
+.PrecisoDeAjuda:hover .fa-angle-double-right {
+    opacity: 1;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .col-md-12 h1 {
+        font-size: 40px;
+    }
+    .col-md-12 p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cf-title p {
+        font-size: 44px;
+    }
+    .col-md-12 h1 {
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+}

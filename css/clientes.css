@@ -1,0 +1,95 @@
+/*---------------FIM BOTÂO SUBUR---------------
+
+00000  00     00  00000  00    00  000000  000000  000000
+00     00     00  00     000   00    00    00      00
+00     00     00  00000  00 00 00    00    000000  000000
+00     00     00  00     00   000    00    00          00
+00000  00000  00  00000  00    00    00    000000  000000
+
+*/
+
+body {
+    background-color: none!important;
+}
+
+#clientes {
+    padding-bottom: 10px;
+}
+
+.cliente {
+    padding: 20px 20px 20px 20px;
+    font-size: 60px;
+    color: #0C3C60;
+    text-align: center;
+}
+
+.cliente p {
+    margin-bottom: 0;
+}
+
+.underline {
+    transform-origin: center;
+    width: 20%;
+    height: 3px;
+    background-color: #0C3C60;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+.description-clients {
+    font-size: 18;
+    padding: 0 15px;
+}
+
+.description-clients p {
+    text-align: justify;
+}
+
+.balao {
+    padding: 0;
+}
+
+.main-balao {
+    position: relative;
+    flex: 1;
+    width: 100%;
+    text-align: center;
+}
+
+.balao2 {
+    background: rgba(6, 75, 128, 0.507);
+    border-radius: 10px;
+    flex: 1;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.balao2:after {
+    content: "";
+    position: absolute;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 20px solid rgba(6, 75, 128, 0.507);
+    bottom: -20px;
+    left: 120px;
+}
+
+.AreaLogosClients {
+    width: 50%!important;
+    padding: 0px!important;
+    margin: 0!important;
+}
+
+.ImgBalaoClients {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 640px) {
+    .underline {
+        width: 30%;
+        margin-left: 35%;
+    }
+}

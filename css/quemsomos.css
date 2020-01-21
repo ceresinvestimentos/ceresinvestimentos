@@ -1,0 +1,196 @@
+.qs-0 {
+    background: linear-gradient(120deg, rgb(209, 240, 250), rgb(221, 221, 221));
+    /* background-color: white; */
+    padding: 10px 0;
+}
+
+.underline {
+    transform-origin: center;
+    width: 20%;
+    height: 3px;
+    background-color: #0C3C60;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+
+.qs-1 {
+    text-align: center;
+    color: #0c3c60;
+    width: 50%;
+}
+
+.qs-1 h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.qs-1 p {
+    margin-bottom: 40px;
+}
+
+.QuemSomosCard {
+    padding: 10px;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: .4em;
+}
+
+.back h3 {
+    text-align: center;
+    color: #2c2c2c;
+}
+
+.imgfundo {
+    position: relative;
+    height: 110px;
+    width: 100%;
+    border-radius: .4em .4em 0 0;
+}
+
+#card01 {
+    background: url('../images/quemsomos/card01.jpg') center;
+}
+
+#card02 {
+    background: url('../images/quemsomos/card02.jpg') center;
+}
+
+#card03 {
+    background: url('../images/quemsomos/card03.jpg') center;
+}
+
+#card04 {
+    background: url('../images/quemsomos/card04.jpg') center;
+}
+
+#card05 {
+    background: url('../images/quemsomos/card05.jpg') center;
+}
+
+#card06 {
+    background: url('../images/quemsomos/card06.jpg') center;
+}
+
+#card07 {
+    background: url('../images/quemsomos/card07.jpg') center;
+}
+
+#card08 {
+    background: url('../images/quemsomos/card08.jpg') center;
+}
+
+#card09 {
+    background: url('../images/quemsomos/card09.jpg') center;
+}
+
+.user #Guilherme, .user #Fabricio, .user #AlexandreBibiano, .user #LeandroBizzinotto, .user #MauroPeixoto, .user #AnaMaria, .user #KarlaCouto, .user #CristianoBizzinotto {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: 3px solid white;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    background-position: center;
+    background-size: 100%;
+    transition: .2s all ease-in-out;
+}
+
+#Guilherme {
+    background: url('../images/quemsomos/Guilherme.jpg') center;
+}
+
+#Fabricio {
+    background: url('../images/quemsomos/Fabricio.jpg') center;
+}
+
+#AlexandreBibiano {
+    background: url('../images/quemsomos/AlexandreBibiano.jpg') center;
+}
+
+#LeandroBizzinotto {
+    background: url('../images/quemsomos/Leandro.jpg') center;
+}
+
+#KarlaCouto {
+    background: url('../images/quemsomos/KarlaCouto.jpg') center;
+}
+
+#MauroPeixoto {
+    background: url('../images/quemsomos/MauroPeixoto.jpg') center;
+}
+
+#AnaMaria {
+    background: url('../images/quemsomos/AnaMaria.jpg') center;
+}
+
+#CristianoBizzinotto {
+    background: url('../images/quemsomos/CristianoBizzinotto.jpg') center;
+}
+
+.QuemSomosCard:hover #Guilherme, .QuemSomosCard:hover #Fabricio, .QuemSomosCard:hover #AlexandreBibiano, .QuemSomosCard:hover #LeandroBizzinotto, .QuemSomosCard:hover #KarlaCouto, .QuemSomosCard:hover #MauroPeixoto, .QuemSomosCard:hover #AnaMaria, .QuemSomosCard:hover #CristianoBizzinotto {
+    background-size: 120%;
+}
+
+.under {
+    background: white;
+    border-radius: 0 0 .4em .4em;
+    padding: 6em 1em 0 1em;
+    text-align: center;
+}
+
+.under h3, h6, p {
+    color: #0c3c60;
+}
+
+.under h3 {
+    font-weight: 500;
+}
+
+.under h6 {
+    text-transform: uppercase;
+}
+
+.under p {
+    margin: 1em 0 2em 0;
+    height: 90px;
+}
+
+.under hr {
+    margin: 0 auto .7em auto;
+    width: 85%;
+    display: block;
+}
+
+.socialMedias {
+    color: #428bca;
+    text-decoration: none;
+    height: 41px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+    .qs-1 h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .under {
+        padding: 6em 3.5em 0 3.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .qs-1 p {
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+}
