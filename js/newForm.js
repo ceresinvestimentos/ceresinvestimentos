@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     var id_counter = 0;
     $("#newForm").on("click", () => {
         $("#form0").clone().attr("id", `form0${id_counter}`).appendTo("#formWraper")
@@ -11,7 +11,7 @@ $(document).ready(function(){
         console.log(`0${id_counter}`)
     });
 
-    
+
 })
 
 const remover = (id) => {
