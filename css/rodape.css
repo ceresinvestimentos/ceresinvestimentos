@@ -1,0 +1,96 @@
+footer {
+    background: #EAF7FF;
+    font-size: 1.2em;
+}
+
+.RodapeItem {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.RodapeItem h1 {
+    color: rgba(12, 60, 96, 1);
+    font-weight: 450;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.RodapeItem li {
+    list-style: none;
+    color: rgba(12, 60, 96, 1);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.RodapeItem li:hover a {
+    font-style: italic;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.RodapeLogo {
+    width: 120px
+}
+
+.hr-rodape {
+    height: 2px;
+    width: 70%;
+    margin-left: 15%;
+    background-color: rgba(12, 60, 96, 1);
+    display: none
+}
+
+@media screen and (max-width: 1024px) {
+    .RodapeItem li {
+        font-size: 15px
+    }
+    .RodapeItem {
+        padding: 15px
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .RodapeItem li {
+        font-size: 20px
+    }
+    .hr-rodape {
+        display: block
+    }
+    .RodapeItem li:nth-child(3) span {
+        font-size: 18px
+    }
+}
+
+/*--------------Botão para subir---------------*/
+
+#subir {
+    bottom: 0px;
+    right: 0px;
+}
+
+div #voltarTopo img {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 15px;
+}
+
+.up-scroll {
+    z-index: 50;
+    text-align: center;
+    opacity: 0;
+    display: none;
+    transition: opacity .4s ease-in-out;
+}
+
+.up-scroll.display {
+    display: block;
+}
+
+.up-scroll.display.active {
+    opacity: 1;
+}
